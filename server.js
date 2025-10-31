@@ -58,12 +58,11 @@ app.use(cors({
 app.use(express.json());
 
 // Microsoft Graph API Configuration
-// Microsoft Graph API Configuration
 const OUTLOOK_CONFIG = {
     clientId: process.env.OUTLOOK_CLIENT_ID ,
-    clientSecret: process.env.OUTLOOK_CLIENT_SECRET,
+    clientSecret: process.env.OUTLOOK_CLIENT_SECRET ,
     tenantId: process.env.OUTLOOK_TENANT_ID ,
-    userEmail: process.env.OUTLOOK_USER_EMAIL
+    userEmail: process.env.OUTLOOK_USER_EMAIL 
 };
 
 
